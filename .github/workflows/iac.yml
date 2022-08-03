@@ -2,7 +2,8 @@ name: 'TerraformCI'
 
 on:
   push:
-    branches: [ master ]
+    branches:
+      - 'master'
 
 jobs:
   terraform:
